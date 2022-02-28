@@ -1,0 +1,11 @@
+include <stdio.h>
+main()
+{
+
+int x, y;
+printf("Введите целое значение x:\n");
+scanf("%d", &x);
+y = 5 * x + 20;
+printf("y = %d", y);
+getchar ();
+}
